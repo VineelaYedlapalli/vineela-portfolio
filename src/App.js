@@ -20,7 +20,7 @@ const DATA = {
       category: "Backend Frameworks",
       icon: "⚙",
       color: "#60f0c0",
-      items: [ "Django", "Node.js", "Express.js", "ASP.NET"],
+      items: ["Django", "Node.js", "Express.js", "ASP.NET"],
     },
     {
       category: "APIs & Architecture",
@@ -476,7 +476,7 @@ export default function Portfolio() {
             opacity: heroReady ? undefined : 0,
           }}>
             {[
-              { val: "2+", label: "Years Experience", color: "#60f0c0" },
+              { val: "2", label: "Years Experience", color: "#60f0c0" },
               { val: "5", label: "Projects Built", color: "#f0c060" },
               { val: "8.56", label: "Engineering GPA", color: "#c060f0" },
               { val: "8+", label: "Certifications", color: "#60c0f0" },
